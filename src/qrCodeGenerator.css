@@ -1,0 +1,32 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font: 1em sans-serif;
+}
+
+.button {
+    border: 1px solid blue;
+    background: #fff;
+    color: blue;
+    transition: .3s;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    color: #fff;
+    background: blue;
+}
+
+.input {
+    border: 1px solid blue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.prompt {
+    margin-bottom: 20px;
+}
